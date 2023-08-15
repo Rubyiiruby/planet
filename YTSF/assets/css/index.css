@@ -58,6 +58,7 @@ section#kv {
 .kv-wrapper {
   position: relative;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background: url('../img/bg-wave-1.svg') top left / 87% no-repeat, url('../img/bg-wave-2.svg') bottom right / 66% no-repeat, url('../img/bg-pattern-light.svg') center center / cover no-repeat, url('../img/bg-pattern-check.svg') center center / 10px repeat rgb(163, 230, 254);
 }
 .kv-wrapper::after {
@@ -72,6 +73,7 @@ section#kv {
 .kv-cont {
   position: relative;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   z-index: 3;
   display: flex;
   align-items: center;
@@ -117,6 +119,7 @@ section#kv {
   width: 100%;
   max-width: 1440px;
   height: 100vh;
+
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -504,6 +507,7 @@ section#kv {
   }
   .kv-wrapper {
     height: calc(100vh - 50px);
+    height: calc(var(--vh, 1vh) * 100 - 50px);
     background: url(../img/bg-wave-1.svg) 35% 45px / 140% no-repeat, url(../img/bg-wave-2.svg) bottom right / 140% no-repeat, url(../img/bg-pattern-light.svg) center center / cover no-repeat, url(../img/bg-pattern-check.svg) center center / 10px repeat rgb(163, 230, 254);
   }
   .kv-wrapper::after {
@@ -626,6 +630,7 @@ section#kv {
   }
   .kv-wrapper {
     height: calc(100vh - 40px);
+    height: calc(var(--vh, 1vh) * 100 - 40px);
   }
   .kv-item.rabbit1 {
     top: 10%;
@@ -744,6 +749,7 @@ section#kv {
   }
   .calcTip-img {
     padding-top: 20px;
+    padding-left: 0;
   }
   .calcTip-img img {
     width: 200px;
