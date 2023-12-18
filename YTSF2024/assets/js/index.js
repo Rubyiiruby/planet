@@ -3,6 +3,10 @@
 
   var tween = gsap
     .timeline()
+    .from('.loading', {
+      opacity: 1,
+      duration: 1.5,
+    })
     .from('.cloud-animation', {
       opacity: 0,
       duration: 1,
@@ -39,6 +43,39 @@
     )
   })
 
+  window.addEventListener('scroll', () => {
+    const scrollY = window.pageYOffset
+
+    ;['A', 'B', 'C', 'D', 'E', 'F'].forEach((itemName) => {
+      const item = document.querySelector(`.item${itemName}`)
+      const speed = Number(item.dataset.speed)
+      item.style.transform = `translateY(${scrollY * speed}px)`
+    })
+  })
+
+  // window.addEventListener('scroll', () => {
+  //   const scrollPositionY = window.pageYOffset
+  //   const itemA = document.querySelector('.itemA')
+  //   const itemB = document.querySelector('.itemB')
+  //   const itemC = document.querySelector('.itemC')
+  //   const itemD = document.querySelector('.itemD')
+  //   const itemE = document.querySelector('.itemE')
+  //   const itemF = document.querySelector('.itemF')
+  //   const itemAMoveSpeed = Number(itemA.dataset.speed)
+  //   const itemBMoveSpeed = Number(itemB.dataset.speed)
+  //   const itemCMoveSpeed = Number(itemC.dataset.speed)
+  //   const itemDMoveSpeed = Number(itemD.dataset.speed)
+  //   const itemEMoveSpeed = Number(itemE.dataset.speed)
+  //   const itemFMoveSpeed = Number(itemF.dataset.speed)
+
+  //   itemA.style.transform = `translateY(${scrollPositionY * itemAMoveSpeed}px)`
+  //   itemB.style.transform = `translateY(${scrollPositionY * itemBMoveSpeed}px)`
+  //   itemC.style.transform = `translateY(${scrollPositionY * itemCMoveSpeed}px)`
+  //   itemD.style.transform = `translateY(${scrollPositionY * itemDMoveSpeed}px)`
+  //   itemE.style.transform = `translateY(${scrollPositionY * itemEMoveSpeed}px)`
+  //   itemF.style.transform = `translateY(${scrollPositionY * itemFMoveSpeed}px)`
+  // })
+
   const tabShow = 0
   const tabNavItems = $('.projectTab-item')
   const tabContentItems = $('.projectTab-cont')
@@ -56,28 +93,5 @@
     $(item).on('click', function () {
       changeTab(idx)
     })
-  })
-
-  window.addEventListener('scroll', () => {
-    const scrollPositionY = window.pageYOffset
-    const itemA = document.querySelector('.itemA')
-    const itemB = document.querySelector('.itemB')
-    const itemC = document.querySelector('.itemC')
-    const itemD = document.querySelector('.itemD')
-    const itemE = document.querySelector('.itemE')
-    const itemF = document.querySelector('.itemF')
-    const itemAMoveSpeed = Number(itemA.dataset.speed)
-    const itemBMoveSpeed = Number(itemB.dataset.speed)
-    const itemCMoveSpeed = Number(itemC.dataset.speed)
-    const itemDMoveSpeed = Number(itemD.dataset.speed)
-    const itemEMoveSpeed = Number(itemE.dataset.speed)
-    const itemFMoveSpeed = Number(itemF.dataset.speed)
-
-    itemA.style.transform = `translateY(${scrollPositionY * itemAMoveSpeed}px)`
-    itemB.style.transform = `translateY(${scrollPositionY * itemBMoveSpeed}px)`
-    itemC.style.transform = `translateY(${scrollPositionY * itemCMoveSpeed}px)`
-    itemD.style.transform = `translateY(${scrollPositionY * itemDMoveSpeed}px)`
-    itemE.style.transform = `translateY(${scrollPositionY * itemEMoveSpeed}px)`
-    itemF.style.transform = `translateY(${scrollPositionY * itemFMoveSpeed}px)`
   })
 })()
