@@ -16,6 +16,11 @@ h3 {
   font-weight: 700;
   line-height: 1.25em;
 }
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
 .txt-lg {
   font-size: 22px;
   line-height: 1.5em;
@@ -80,32 +85,57 @@ section .notice {
 section.kv {
   width: 100%;
   height: 100vh;
-  background: url(../img/img-kv-mountain.svg) bottom center / 2048px repeat-x rgb(195, 240, 250);
+  background: url(../img/bg-check-dark.svg) center center / 40px repeat #5dafff;
   position: relative;
   z-index: 5;
 }
-.kv::before {
-  content: url(../img/img-kv-cloud.svg);
-  position: absolute;
-  left: 12%;
-  top: 22%;
-  width: 300px;
-}
 .kv::after {
-  content: url(../img/img-kv-cloud2.svg);
+  content: url(../img/bg-wave-wblue.svg);
   position: absolute;
-  right: 12%;
-  top: 18%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.kv-deco {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+}
+.kv-deco > div {
+  position: absolute;
+}
+.kv-wrapper {
+  display: flex;
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  top: calc(50% + 36px);
+  transform: translate(0, -50%);
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+  z-index: 10;
+}
+.kvImg {
+  display: flex;
+  justify-content: space-between;
+}
+.kvImg .pic {
   width: 300px;
 }
-.kvSlogan {
+.kv-wrapper img {
+  width: 100%;
+}
+/* .kvSlogan {
   width: 75%;
   max-width: 1024px;
   margin: 0 auto;
   position: relative;
   top: 22%;
   z-index: 10;
-}
+} */
 .sideBtn-wrapper {
   display: flex;
   flex-direction: row;
@@ -211,7 +241,7 @@ section.feature {
   flex-direction: column;
   flex: 1 1 0px;
   position: relative;
-  padding: 100px 30px 30px;
+  padding: 120px 30px 30px;
 }
 .cardGB::before {
   content: url(../img/img-product-gb.svg);
@@ -266,44 +296,44 @@ section.feature {
 .cardTW div,
 .cardTW p,
 .cardTW li {
-  color: #005bac;
+  color: #006eab;
 }
 .cardGB div,
 .cardGB p,
 .cardGB li {
-  color: #009fe8;
+  color: #1c7fee;
 }
 .cardJP div,
 .cardJP p,
 .cardJP li {
-  color: #c61026;
+  color: #c51024;
 }
 .cardTW .cardBtns a {
-  color: #005bac;
-  border: 1px solid #005bac;
+  color: #006eab;
+  border: 1px solid #006eab;
 }
 .cardGB .cardBtns a {
-  color: #009fe8;
-  border: 1px solid #009fe8;
+  color: #1c7fee;
+  border: 1px solid #1c7fee;
 }
 .cardJP .cardBtns a {
-  color: #c61026;
-  border: 1px solid #c61026;
+  color: #c51024;
+  border: 1px solid #c51024;
 }
 .cardBtns a.main {
   color: #fff;
 }
 .cardTW .cardBtns a.main {
   border: 0;
-  background-color: #005bac;
+  background-color: #006eab;
 }
 .cardGB .cardBtns a.main {
   border: 0;
-  background-color: #009fe8;
+  background-color: #1c7fee;
 }
 .cardJP .cardBtns a.main {
   border: 0;
-  background-color: #c61026;
+  background-color: #c51024;
 }
 .feature h3 {
   padding: 100px 0 60px;
@@ -464,7 +494,6 @@ section.offer::after {
 .offerDetails {
   display: flex;
   padding-top: 60px;
-  /* margin-top: 60px; */
   border-top: 1px solid #cccccc;
   column-gap: 60px;
 }
@@ -478,6 +507,61 @@ section.offer::after {
 }
 .offerDetails .offerImg {
   max-width: 290px;
+}
+.offer .faq {
+  color: #ffffff;
+  padding-top: 40px;
+}
+.faqSwitch button {
+  color: #ffffff;
+}
+.faqSwitch span::after {
+  content: url(../img/icon-arrow-down.svg);
+  display: inline-block;
+  width: 20px;
+  padding: 0 10px;
+}
+.faqSwitch span.active::after {
+  transform: rotate(180deg);
+}
+.faqCont {
+  display: flex;
+  padding-top: 40px;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.faqCont .item {
+  display: flex;
+  padding: 0 10px 30px;
+  border-bottom: 1px solid #eeeeee;
+  column-gap: 10px;
+}
+.faqCont .itemNum {
+  color: #ffd400;
+}
+.faqCont .itemNum::before {
+  content: 'Q';
+  font-size: 2em;
+}
+.faqCont .itemCont {
+  flex: 1;
+}
+.faqCont .itemCont .question {
+  display: flex;
+  line-height: 2em;
+  align-items: center;
+  justify-content: space-between;
+}
+.faqCont .itemCont button {
+  width: 18px;
+  height: 18px;
+  background: url(../img/icon-qa-open.svg) center center / 20px no-repeat;
+}
+.faqCont .itemCont button.active {
+  background: url(../img/icon-qa-close.svg) center center / 20px no-repeat;
+}
+.faqCont .itemCont .answer {
+  padding-top: 10px;
 }
 .contImg {
   width: 255px;
