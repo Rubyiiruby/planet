@@ -1,0 +1,411 @@
+<html lang="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover" />
+    <meta name="description" content="布局美、日、台龍頭企業打造完整組合，透過元大龍頭系列基金，迎接三大高科技強國時代，參與閃耀國際龍頭企業的成長，同時分散風險也不錯過股債行情。" />
+    <link rel="shortcut icon" href="https://www.yuantafunds.com/images/icologo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://www.yuantafunds.com/active/default/css/default.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中｜元大投信</title>
+
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+
+    <!-- Facebook 縮圖 -->
+    <meta property="fb:app_id" content="追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中｜元大投信" />
+    <meta property="og:title" content="追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中｜元大投信" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="布局美、日、台龍頭企業打造完整組合，透過元大龍頭系列基金，迎接三大高科技強國時代，參與閃耀國際龍頭企業的成長，同時分散風險也不錯過股債行情。" />
+    <!-- <meta property="og:image" content="https://ectest.yuantafunds.com/ec2019/active/LeadersFunds/assets/img/share-img.jpg"> -->
+    <meta property="og:image" content="https://www.yuantafunds.com/active/LeadersFunds/assets/img/share-img.jpg" />
+    <meta property="og:site_name" content="追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中｜元大投信" />
+    <meta property="og:url" content="https://www.yuantafunds.com/active/LeadersFunds/index.html " />
+    <!-- Facebook 縮圖　-->
+
+    <!-- Google Tag Manager -->
+    <!-- <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js',
+        })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-PPTTN7C')
+    </script> -->
+    <!-- End Google Tag Manager -->
+
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPTTN7C" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="app" v-cloak>
+      <header>
+        <a href="https://www.yuantafunds.com/"><img src="https://www.yuantafunds.com/active/default/img/header/YTF-logo.svg" alt="元大投信" /></a>
+      </header>
+
+      <!-- <section class="kv">
+        <div class="kvSlogan">
+          <img src="./assets/img/img-kv-slogan.svg" alt="" class="hide-mobile" />
+          <img src="./assets/img/img-kv-slogan-mob.svg" alt="" class="hide-pc" />
+        </div>
+        <div class="sideBtn-wrapper">
+          <div v-show="showAllotList" style="display: none">
+            <ul class="popup borderRadius-md">
+              <li class="popupItem txt-left txt-lg fw-bold">
+                <p>元大台灣高股息優質龍頭基金<br />(本基金之配息來源可能為收益平準金)</p>
+                <a id="btn-side-twA" href="https://yuantafunds.page.link/KcUC" target="_blank" class="btn-hover-opc" @click="trackCustom('龍頭推廣頁_台優龍A類型不配息_我要申購_浮動', '台優龍A類型不配息')">A類型不配息</a>
+                <a id="btn-side-twB" href="https://yuantafunds.page.link/Liq5" target="_blank" class="btn-hover-opc" @click="trackCustom('龍頭推廣頁_台優龍B類型配息_我要申購_浮動', '台優龍B類型配息')">B類型配息</a>
+              </li>
+              <li class="popupItem txt-left txt-lg fw-bold">
+                <p>元大全球優質龍頭平衡基金</p>
+                <a id="btn-side-gb" href="https://yuantafunds.page.link/Ek4h" target="_blank" class="btn-hover-opc" @click="trackCustom('龍頭推廣頁_全優龍定期定額_我要申購_浮動', '全優龍定期定額')">定期定額</a>
+              </li>
+              <li class="popupItem txt-left txt-lg fw-bold">
+                <p>元大日本龍頭企業基金</p>
+                <a id="btn-side-jp" href="https://yuantafunds.page.link/xWZb" target="_blank" class="btn-hover-opc" @click="trackCustom('龍頭推廣頁_日優龍定期定額_我要申購_浮動', '日優龍定期定額')">定期定額</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sideBtn">
+            <a id="btn-side-apply" @click="toggle" class="main txt-md txt-center fw-bold btn-hover-opc hide-mobile">我要申購</a>
+            <a id="mobile-btn-side-apply" href="https://yuantafunds.page.link/bPJv" target="_blank" @click="trackCustom('手機版_龍頭推廣頁_我要申購_浮動', '手機版_龍頭推廣頁_我要申購_浮動')" class="main txt-md txt-center fw-bold btn-hover-opc hide-pc">我要申購</a>
+            <a id="btn-side-openacc" href="https://www.yuantafunds.com/active/openacc/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="txt-md txt-center fw-bold btn-hover-opc" @click="trackCustom('龍頭推廣頁_我要開戶', '我要開戶')">立即開戶</a>
+          </div>
+        </div>
+      </section> -->
+      <section class="intro">
+        <div class="container">
+          <h2>升息尾聲，優質股債可望迎來新一波多頭格局</h2>
+          <div class="descrip txt-lg">回顧前次升息循環，在最後一次升息日後進場全球百大企業、投資等級債、日股、台股報酬率亮眼</div>
+          <div class="fundCharts">
+            <div class="chart"><img src="./assets/img/chart-intro-gb.svg" alt="" /></div>
+            <div class="chart"><img src="./assets/img/chart-intro-jp.svg" alt="" /></div>
+            <div class="chart"><img src="./assets/img/chart-intro-tw.svg" alt="" /></div>
+          </div>
+          <div class="notice txt-sm txt-left">資料來源：彭博資訊，前次升息循環最後一次升息日為2018/12/20，全球百大企業係以標普全球100指數為代表，投資級債係以J.P. Morgan US Liquid Index (JULI)為代表、日股係以東證指數為代表、台股係以臺灣加權股價指數為代表。上述資產依原幣計價。<span class="fw-bold">以上僅為歷史資料，不代表實際報酬率及未來績效保證，不同時間結果亦可能不同。指數報酬率非指基金報酬率，投資人不可直接投資該指數。本文提及之經濟走勢預測不必然代表本基金之績效，本基金投資風險請詳閱基金公開說明書。</span></div>
+        </div>
+      </section>
+      <section class="feature">
+        <div class="container">
+          <h2>新三強時代 龍頭資產先發致勝</h2>
+          <div class="descrip txt-lg">追成長、抓收益、抗波動 打造完整龍頭組合</div>
+          <div class="fundCards">
+            <div class="card cardGB borderRadius-md">
+              <div class="cardTxt">
+                <div class="txt-lg fw-bold">元大全球優質龍頭平衡基金</div>
+                <div class="txt-md txt-left">
+                  <p class="fw-bold">全球優質股債資產</p>
+                  <ul>
+                    <li>兼納股票攻擊力及債券防禦力，投資攻守兼備，不投資高違約風險的非投資等級債券。</li>
+                    <li>市場預期高利率環境將再維持一段時間，龍頭企業受影響程度相對緩和，深具投資價值。</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cardBtns txt-md fw-bold">
+                <a id="btn-funds-gb-more" href="https://www.yuantafunds.com/active/YGLBF/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="borderRadius-sm btn-hover-opc" @click="trackCustom('龍頭推廣頁_全優龍定期定額_瞭解更多', '全優龍定期定額')">瞭解更多</a>
+                <a id="btn-funds-gb-apply" href="https://yuantafunds.page.link/Ek4h" target="_blank" class="main borderRadius-sm btn-hover-opc" @click="trackCustom('龍頭推廣頁_全優龍定期定額_立即申購', '全優龍定期定額')">立即申購</a>
+              </div>
+            </div>
+            <div class="card cardJP borderRadius-md">
+              <div class="cardTxt">
+                <div class="txt-lg fw-bold">元大日本龍頭企業基金</div>
+                <div class="txt-md txt-left">
+                  <p class="fw-bold">日本龍頭爆發潛力</p>
+                  <ul>
+                    <li>鎖定日本製造及技術地位領先的優異企業。</li>
+                    <li>精選優質成長動能，發掘各產業具備高成長潛力的投資標的。</li>
+                    <li>日圓貶值帶動，有利大型股出口競爭力與獲利表現。</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cardBtns txt-md fw-bold">
+                <a id="btn-funds-jp-more" href="https://www.yuantafunds.com/active/JapanFund/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="borderRadius-sm btn-hover-opc" @click="trackCustom('龍頭推廣頁_日優龍定期定額_瞭解更多', '日優龍定期定額')">瞭解更多</a>
+                <a id="btn-funds-jp-apply" href="https://yuantafunds.page.link/xWZb" target="_blank" class="main borderRadius-sm btn-hover-opc" @click="trackCustom('龍頭推廣頁_日優龍定期定額_立即申購', '日優龍定期定額')">立即申購</a>
+              </div>
+            </div>
+            <div class="card cardTW borderRadius-md">
+              <div class="cardTxt">
+                <div class="txt-lg fw-bold">元大台灣高股息優質龍頭基金(本基金之配息來源可能為收益平準金)</div>
+                <div class="txt-md txt-left">
+                  <p class="fw-bold">台股高息及成長機會</p>
+                  <ul>
+                    <li>台股首檔每月配息 + 年終配(註)的台股基金。</li>
+                    <li>聚焦台股優質高息與資本利得的雙重投資機會。</li>
+                    <li>現階段著重半導體、AI 成長題材。</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cardBtns txt-md fw-bold">
+                <a id="btn-funds-tw-more" href="https://www.yuantafunds.com/active/IPO_202008_HYL/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="borderRadius-sm btn-hover-opc" @click="trackCustom('龍頭推廣頁_台優龍_瞭解更多', '台優龍')">瞭解更多</a>
+                <a id="btn-funds-tw-apply" href="https://yuantafunds.page.link/Liq5" target="_blank" class="main borderRadius-sm btn-hover-opc" @click="trackCustom('龍頭推廣頁_台優龍B類型配息定期定額_立即申購', '台優龍B類型配息定期定額')">立即申購</a>
+              </div>
+            </div>
+          </div>
+          <div class="notice txt-sm txt-left">資料來源：理柏資訊、元大投信整理，2023/10/31。元大全球優質龍頭平衡基金同時投資股票與債券等部位需達70%，且依全球景氣循環階段，動態彈性調整各類資產的投資配置，其中股票資產配置水位可介於10%~90%。註：元大台灣高股息優質龍頭基金的年終配息機制(每年度分配收益)，係以基金B類型受益權單位投資於中華民國境內所得之已實現資本利得扣除資本損失(包括已實現及未實現之資本損失)，並扣除應負擔之費用之正數餘額為可分配收益，如無正數餘額時將不予分配。日本龍頭企業的定義為於日本股票市場交易的企業，且為各產業類別之全部上市櫃股票市值排序前30%(含)者。<span class="fw-bold">基金淨資產需有大於等於60%的總金額投資在符合「日本龍頭企業」定義之股票。本說明非代表本基金未來必然之配置，未來投資將依公開說明書規範及當時市場環境與經濟現況而調整。上述配置為2023年10月底之基金之實際布局，未來投資將依公開說明書規範及當時市場環境與經濟現況而調整。</span></div>
+          <h3>龍頭企業閃耀國際</h3>
+          <div class="companyTable txt-center txt-md borderRadius-md">
+            <div class="companyTable-row">
+              <div class="th"></div>
+              <div class="th thUS">美國</div>
+              <div class="th thJP">日本</div>
+              <div class="th thTW">台灣</div>
+            </div>
+            <div class="companyTable-row">
+              <div class="td"><p>半導體</p></div>
+              <div class="td tdUS">
+                <ol class="txt-left">
+                  <li>輝達<span class="txt-sm">(全球晶片龍頭)</span></li>
+                  <li>蘋果<span class="txt-sm">(全球晶片領導品牌)</span></li>
+                </ol>
+              </div>
+              <div class="td tdJP">
+                <ol class="txt-left">
+                  <li>東京威力科創<span class="txt-sm">(全球半導體製造強權)</span></li>
+                  <li>信越化學<span class="txt-sm">(全球矽晶圓龍頭)</span></li>
+                </ol>
+              </div>
+              <div class="td tdTW">
+                <ol class="txt-left">
+                  <li>台積電<span class="txt-sm">(全球晶圓代工龍頭)</span></li>
+                  <li>聯發科<span class="txt-sm">(亞洲晶片龍頭)</span></li>
+                  <li>日月光投控<span class="txt-sm">(全球封測龍頭)</span></li>
+                </ol>
+              </div>
+            </div>
+            <div class="companyTable-row">
+              <div class="td"><p>AI自動化</p></div>
+              <div class="td tdUS">
+                <ol class="txt-left">
+                  <li>微軟<span class="txt-sm">(全球雲端服務龍頭)</span></li>
+                  <li>臉書<span class="txt-sm">(全球社群平台龍頭)</span></li>
+                  <li>谷歌<span class="txt-sm">(全球搜尋引擎龍頭)</span></li>
+                </ol>
+              </div>
+              <div class="td tdJP">
+                <ol class="txt-left">
+                  <li>基恩斯<span class="txt-sm">(全球自動化龍頭)</span></li>
+                  <li>SMC<span class="txt-sm">(全球氣動元件龍頭)</span></li>
+                </ol>
+              </div>
+              <div class="td tdTW">
+                <ol class="txt-left">
+                  <li>廣達<span class="txt-sm">(全球AI伺服器領導廠)</span></li>
+                  <li>緯創<span class="txt-sm">(全球伺服器零件領導供應商)</span></li>
+                </ol>
+              </div>
+            </div>
+            <div class="companyTable-row">
+              <div class="td"><p>終端消費</p></div>
+              <div class="td tdUS">
+                <ol class="txt-left">
+                  <li>禮來<span class="txt-sm">(全球製藥龍頭)</span></li>
+                  <li>百事可樂<span class="txt-sm">(全球飲料領導品牌)</span></li>
+                </ol>
+              </div>
+              <div class="td tdJP">
+                <ol class="txt-left">
+                  <li>豐田<span class="txt-sm">(全球汽車龍頭)</span></li>
+                  <li>任天堂<span class="txt-sm">(全球遊戲機龍頭)</span></li>
+                  <li>大金<span class="txt-sm">(全球大型空調設備龍頭)</span></li>
+                </ol>
+              </div>
+              <div class="td tdTW">
+                <ol class="txt-left">
+                  <li>聯詠<span class="txt-sm">(全球面板驅動IC領導)</span></li>
+                  <li>聚陽<span class="txt-sm">(全球成衣代工強權)</span></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="notice txt-sm txt-left">資料來源：元大投信整理，2023/10/31。<span class="fw-bold">本文提及個股、行業及占比僅為說明之用，不代表基金之必然投資，亦不代表任何金融商品</span></div>
+        </div>
+      </section>
+      <section class="rsp">
+        <div class="container">
+          <h2>同時定期定額龍頭系列基金，廣納龍頭企業</h2>
+          <div class="descrip txt-lg">#分散風險&nbsp;&nbsp;#多元資產&nbsp;&nbsp;#涵蓋多國紅利</div>
+          <div class="contBox borderRadius-lg">
+            <div class="prev-arrow"></div>
+            <div class="next-arrow"></div>
+            <div class="rspSlider">
+              <div class="rspSlide">
+                <div class="descrip txt-md">過去 15 年，每個月定期定額多元資產組合新台幣 10,000 元，期間不中斷，累積獲利 199 萬元</div>
+                <div class="chartImg"><img src="assets/img/chart-rsp-1.svg" alt="" /></div>
+                <div class="notice txt-sm txt-left">資料來源：理柏資訊，2008/10/31~2023/10/31，元大投信整理。全球優質龍頭股債組合為70%全球百大企業股票+30%優質債券(全球百大企業係以標普全球100指數為代表、優質債券係以Markit iBoxx美元流動投資等級債券指數為代表)；台股係以臺灣加權股價指數為代表；日股係以東證指數為代表。定期定額以每月第一個營業日投資10,000元計算，期間不中斷，以含息報酬率，新台幣計價，未計交易成本。<span class="fw-bold">投資人因不同時間進場，將有不同之投資績效，過去之績效亦不代表未來績效之保證。指數報酬率非指基金報酬率，投資人不可直接投資該指數。</span></div>
+              </div>
+              <div class="rspSlide">
+                <div class="descrip txt-md">定期定額年化報酬率 6% 的商品，累積千萬所需時間試算</div>
+                <div class="chartImg"><img src="assets/img/chart-rsp-2.svg" alt="" /></div>
+                <div class="notice txt-sm txt-left">資料來源：彭博資訊，元大投信整理。上圖為假設期初投資0元，於每個月最後一日定期定額投資1萬元、2萬元、3萬元，且持續投資不中斷，以年化報酬率6%的情境進行計算(以多元資產組合投資配置定期定額過去15年總報酬率110.8%，年化報酬率6%計算)，含息報酬率，新台幣計價，不計入交易成本。<span class="fw-bold">投資人因不同時間進場，將有不同之投資績效，過去之績效亦不代表未來績效之保證，投資人須留意投資風險。以上僅為模擬結果，不代表實際報酬率及未來績效保證，不同時間進行模擬操作，其結果可能不同，以上資料僅供參考。</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <div class="container">
+          <h2>龍年優惠活動專區</h2>
+          <div class="contBox borderRadius-lg">
+            <div class="date txt-md">活動期間：2024 / 01 / 01 - 2024 / 12 / 31</div>
+            <div class="offer-1">
+              <div class="offerImg"><img src="assets/img/img-offer-1.svg" alt="" /></div>
+              <div class="offerTxt txt-lg txt-left">活動期間，線上新增定期定額申購元大龍頭系列基金任 1 檔，均享終身零手續費優惠。</div>
+            </div>
+            <div class="offer-2">
+              <div class="offerImg"><img src="assets/img/img-offer-2.svg" alt="" /></div>
+              <div class="offerTxt txt-lg txt-left">活動期間，線上新增定期定額 3 檔元大龍頭系列基金，且當月每 1 檔均實際成功扣款乙次，免費贈送 30 張單筆申購零手續費優惠券。</div>
+            </div>
+            <div class="offerDetails">
+              <div class="offerImg"><img src="assets/img/img-offer-3.svg" alt="" /></div>
+              <ol class="detailList txt-md txt-left">
+                <li>3 檔元大龍頭系列基金為：元大日本龍頭企業基金、元大全球優質龍頭平衡基金、元大台灣高股息優質龍頭基金(<span class="fw-bold">本基金之配息來源可能為收益平準金</span>)。</li>
+                <li>活動期間新增「3 檔」龍頭基金定期定額契約，需「當月」每 1 檔均實際成功扣款乙次，才符合 30 張單筆申購零手續費優惠券贈獎資格。</li>
+                <li>每月活動贈獎資格會於月底結算，並於次月月初發送，優惠發送時 3 檔元大龍頭系列基金定期定額契約均需為「執行中狀態」。</li>
+                <li>活動期間，每人僅限領取一次 30 張單筆申購優惠券，優惠券僅限電子交易平台申購（元大投信基金理財網、元大基金先生 APP）。</li>
+                <li>優惠券僅限元大投信電子交易平台開放交易之各類型基金（不含期貨信託基金）使用，優惠券無有效期限。</li>
+                <li>優惠券一經使用後，如取消委託或任何因素導致交易失敗時，優惠券亦恕不退還。</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="openacc">
+        <div class="container">
+          <h2>買基金快開戶</h2>
+          <div class="contBox borderRadius-lg">
+            <div class="contImg"><img src="./assets/img/img-openacc.svg" alt="" /></div>
+            <div class="contTxt">
+              <p class="txt-md txt-left"><span class="borderRadius-sm txt-center fw-bold long">線上開戶資格</span>(1) 年滿 18 歲中華民國國民、(2)不具有美國或其他國家、地區的稅務居民身分或指標、(3)不具有輔助宣告身分</p>
+              <p class="txt-md txt-left"><span class="borderRadius-sm txt-center fw-bold">必要文件</span>身分證、第二證件(如健保卡或駕照)</p>
+              <p class="txt-md txt-left"><span class="borderRadius-sm txt-center fw-bold">開戶說明</span>線上透過網路銀行、電子支付 (icash Pay) 完成身分驗證，提供北富銀、國泰世華、中信銀、台新銀、中華郵政等多家扣款銀行選擇。</p>
+              <p class="txt-md txt-left"><span class="borderRadius-sm txt-center fw-bold">開戶優惠</span>完成開戶就送 0 手續費優惠序號，不限單筆申購或定期定額享有元大系列基金 0 元手續費優惠；生日當月再送專屬壽星生日禮。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="warning">
+        <div class="container">
+          <div class="warning-notice txt-sm txt-left">
+            <p class="fw-bold">注意事項</p>
+            <ul>
+              <li>元大龍頭系列基金優惠適用元大投信基金理財網、元大基金先生 APP 或元大投信書面交易申購。</li>
+              <li>本優惠活動如有變更，以網站公告為準，不另行個別通知。</li>
+              <li>參加本活動者視同接受本注意事項之規範，元大投信保有修改、終止或變更本活動內容細節之權利。</li>
+              <li>如有未盡事宜，悉依元大基金理財網公告或相關規定辦理。</li>
+            </ul>
+          </div>
+          <div class="warning-cont txt-left">
+            <p class="txt-md fw-bold"><span class="txt-lg">基金警語</span>投資一定有風險，基金投資有賺有賠，申購前請詳閱公開說明書 !</p>
+            <div class="info">
+              <p class="txt-tn">元大證券投資信託股份有限公司</p>
+              <p class="txt-tn" v-for="item in location" :key="item.ComName">{{ addr(item) }}</p>
+              <p class="txt-tn">本公司兼營投顧的核准文號：96 年 7 月 30 日金管證四字第 0960039848 號函</p>
+            </div>
+            <ul class="txt-sm">
+              <li>【元大投信獨立經營管理】元大系列基金經金管會核准或同意生效，惟不表示絕無風險。本公司以往之經理績效，不保證系列基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責系列基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。定期定額報酬率將因投資人不同時間進場，而有不同之投資績效，過去之績效亦不代表未來績效之保證；本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。為避免因受益人短線交易頻繁，造成基金管理及交易成本增加，進而損及基金長期持有之受益人權益，基金不歡迎受益人進行短線交易。有關基金應負擔之費用已揭露於基金之公開說明書中，投資人可至公開資訊觀測站中查詢。元大系列基金的運用限制、投資風險、配息機制及投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及基金之銷售機構索取，或至公開資訊觀測站( mops.twse.com.tw )及本公司網站( www.yuantafunds.com )中查詢。基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。</li>
+              <li>
+                【元大台灣高股息優質龍頭基金<span>(本基金之配息來源可能為收益平準金)</span>】<br /><span
+                  >本基金之配息率不代表基金報酬率，且過去配息率不代表未來配息率，基金淨值可能因市場因素而上下波動。本基金配息可能由基金的收益平準金中支付。任何涉及由收益平準金支出的部份可能導致原始投資金額減損。收益平準金係指本基金成立日起，計算日之每日受益權單位淨資產價值中，相當於原受益人可分配之收益金額。本基金持股之股利配發時間及金額視各別企業而定。主要來自於「高股息優質龍頭」企業發放的現金股利於累積一段期間後，分為12個月，每月分配給投資人。另每月之收益分配係以本基金B類型受益權單位投資於中華民國境內所得之現金股利、利息收入、已實現股票股利、子基金收益分配及收益平準金等收入扣除應負擔之費用後之可分配收益且不需扣除已實現及未實現之資本損失。每年度分配收益係以本基金B類型受益權單位投資於中華民國境內所得之已實現資本利得扣除資本損失(包括已實現及未實現之資本損失)，並扣除應負擔之費用後之可分配收益。經理公司認為有必要(如市況變化足以對相關基金造成影響)可適時調整收益分配金額，惟本基金B類型受益權單位可分配收益，於經理公司決定收益分配金額後，若有未分配收益得累積併入以後之可分配收益。B類型受益權單位之任一受益人應得之分配金額為新臺幣伍佰元(含)以下者，受益人(除基金銷售機構以自己名義受託申購基金專戶、特定金錢信託專戶、財富管理專戶或壽險公司透過投資型保單等方式為投資人申購本基金者外)同意授權經理公司得以該收益分配金額再申購本基金B類型受益權單位作為當期收益分配之給付方式，該等收益分配金額再申購本基金之申購手續費為零。</span
+                >
+              </li>
+              <li>
+                【元大全球優質龍頭平衡基金】<br />本基金經金管會核准或申報生效，惟不表示絕無風險。本公司以往之經理績效，不保證本基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。定期定額報酬率將因投資人不同時間進場，而有不同之投資績效，過去之績效亦不代表未來績效之保證；本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。<span>為避免因受益人短線交易頻繁，造成基金管理及交易成本增加，進而損及基金長期持有之受益人權益，本基金不歡迎受益人進行短線交易。</span>基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。<span>本基金的運用限制、投資風險、基金申購手續費之收取方式和比率、投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及本基金之銷售機構索取，亦可至公開資訊觀測站(mops.twse.com.tw)或本公司網站(www.yuantafunds.com)中查詢。</span>本基金為多幣別計價之基金，並分別以新臺幣及美元做為計價貨幣，<span>新臺幣級別之申購及買回應以新臺幣收付，不得以美元收付；美元級別之申購及買回應以美元收付，不得以新臺幣收付。</span>如投資人以其他非該類型計價級別之貨幣換匯後投資者，須自行承擔匯率變動之風險，當該類型計價幣別相對其他貨幣貶值時，將產生匯兌損失。因投資人與銀行進行外匯交易有賣價與買價之差異，投資人進行換匯時須承擔買賣價差，此價差依各銀行報價而定。此外，投資人亦須承擔匯款費用，且外幣匯款費用可能高於新臺幣匯款費用。本基金以新臺幣及美元計價，而本基金所投資的有價證券可能以新臺幣及美元以外之貨幣計價，因此本基金承受相關匯率波動風險而可能使基金報酬與投資目標產生偏離。本基金可投資地區包括中國大陸(含人民幣計價之點心債券)，本基金得透過經理公司獲批之境外機構投資者(QFII)額度直接投資於中國大陸有價證券，由於中國大陸之政經情勢或法規變動較已開發國家劇烈，可能對本基金投資標的造成直接或間接之影響。另中國大陸為外匯管制市場，可能影響本基金資金匯出入中國大陸之流動性，如遇受益人大量買回，可能因此延遲給付買回價款。本基金主要投資風險包括國家風險、市場風險、利率風險、匯率風險、債券交易市場流動性不足之風險、投資無擔保公司債之風險及債券發行人違約之信用風險等，本基金所投資標的發生上開風險時，本基金之淨資產價值可能因此產生波動。
+              </li>
+              <li>
+                【元大日本龍頭企業基金】<br />本基金經金管會核准或申報生效，惟不表示絕無風險。本公司以往之經理績效，不保證本基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。定期定額報酬率將因投資人不同時間進場，而有不同之投資績效，過去之績效亦不代表未來績效之保證；本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。<span>為避免因受益人短線交易頻繁，造成基金管理及交易成本增加，進而損及基金長期持有之受益人權益，本基金不歡迎受益人進行短線交易。</span>基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。<span>本基金的運用限制、投資風險、基金申購手續費之收取方式和比率、投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及本基金之銷售機構索取，亦可至公開資訊觀測站(mops.twse.com.tw)或本公司網站(www.yuantafunds.com)中查詢。</span>本基金可能投資於非基金計價幣別之投資標的，當不同幣別間之匯率產生較大變化時，將會影響該基金不同計價幣別之淨資產價值。本基金主要投資於日本證券交易市場交易之有價證券為主，有可能發生投資區域分散性較低，以及類股過度集中之風險。此外，全球政經情勢或法規之變動、外匯管制及匯率、證券交易市場流動性不足等因素，可能對本基金所參與的投資市場及投資工具之報酬造成直接或間接的影響。此外，本基金亦可投資於日本企業發行而於新加坡、香港、美國、英國與德國等國證券交易所交易之有價證券，惟全球經濟環環相扣，各國不同產業之景氣循環將對基金投資績效產生影響。惟本基金不能也無法保證該風險發生之可能性。
+              </li>
+            </ul>
+            <p class="txt-md fw-bold last">［ 洗錢防制宣導警語 ］ 一、防杜非法洗錢，保障自身財產安全。二、開戶審查做得好，客戶權益有保障。三、自己權益要顧好，淪為人頭累累累！</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <script type="text/javascript" src="https://www.yuantafunds.com/active/default/script/footer.js"></script>
+    </footer>
+
+    <script src="https://www.yuantafunds.com/active/default/script/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/axios.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/vue.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script>
+      var vm = new Vue({
+        el: '#app',
+        data() {
+          return {
+            showAllotList: false,
+            location: [],
+          }
+        },
+        computed: {},
+        mounted() {
+          document.addEventListener('click', this.closeAllotList)
+          this.getLocation()
+        },
+        methods: {
+          toggle(e) {
+            this.showAllotList = !this.showAllotList
+          },
+          closeAllotList(e) {
+            const apply = document.querySelector('#btn-side-apply')
+
+            if (!apply.contains(e.target)) {
+              this.showAllotList = false
+            }
+          },
+          // 地址
+          getLocation() {
+            axios({
+              url: 'https://api.yuantafunds.com/ectranslation/api/bridge',
+              methods: 'GET',
+              params: {
+                APIType: 'EC2API',
+                AppName: 'FundWeb',
+                PageName: '0050-0056-rsp',
+                Device: '4',
+                DeviceId: '0e3ca41f-1d91-4519-b39e-cd649ca38865',
+                FuncId: 'CustomerService',
+              },
+            })
+              .then((result) => {
+                this.location = result.data.Data.CS
+              })
+              .catch((error) => {
+                console.error(`${error || error.message}`)
+              })
+          },
+          addr(arr) {
+            return `${arr.ComName}：${arr.Address} ${arr.Tel}　${arr.ApprovedNo}`
+          },
+          trackCustom(btnName, contentName) {
+            fbq('trackCustom', btnName, { content_name: contentName })
+          },
+        },
+      })
+    </script>
+  </body>
+</html>
