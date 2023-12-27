@@ -1104,7 +1104,7 @@ section.warning {
   section.kv,
   .kv::before,
   .kv-deco {
-    height: 120svh;
+    height: 110svh;
   }
   /* .kvImg {
     padding: 0 50px;
