@@ -9,6 +9,7 @@ header button {
   top: 50%;
   right: 20px;
   transform: translate(0, -50%);
+  cursor: pointer;
 }
 section {
   text-align: center;
@@ -727,9 +728,11 @@ section.warning {
   top: 15px;
   right: 15px;
   background: url(../img/icon-ad-close.svg) center center / 100% no-repeat;
+  cursor: pointer;
 }
 .offerAD-cont p {
   padding: 2.2% 0;
+  cursor: pointer;
 }
 .offerAD-cont p::after {
   content: url(../img/icon-arrow-down-dark.svg);
