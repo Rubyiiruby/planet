@@ -65,13 +65,14 @@
 
       <section class="kv">
         <div class="kv-deco">
-          <div class="wave"></div>
-          <div class="dots"></div>
-          <div class="star-1"></div>
-          <div class="star-2"></div>
+          <div class="wave"><img src="./assets/img/deco-kv-wave.svg" alt="" /></div>
+          <div class="dots"><img src="./assets/img/deco-kv-dots.svg" alt="" /></div>
+          <div class="star-1"><img src="./assets/img/deco-kv-star.svg" alt="" /></div>
+          <div class="star-2"><img src="./assets/img/deco-kv-star.svg" alt="" /></div>
+          <div class="star-3"><img src="./assets/img/deco-kv-star.svg" alt="" /></div>
         </div>
         <div class="kv-wrapper">
-          <div class="kvSlogan"><img src="./assets/img/img-kv-slogan.png" alt="" /></div>
+          <div class="kvSlogan"><img src="./assets/img/img-kv-slogan.png" class="hide-mobile" alt="" /><img src="./assets/img/img-kv-slogan-mob.png" class="hide-pc" alt="" /></div>
           <div class="kvImg">
             <div class="pic"><img src="./assets/img/img-kv-pic-gb.svg" alt="" /></div>
             <div class="pic"><img src="./assets/img/img-kv-pic-jp.svg" alt="" /></div>
@@ -174,7 +175,7 @@
           <div class="notice txt-sm txt-left">資料來源：理柏資訊、元大投信整理，2023/10/31。元大全球優質龍頭平衡基金同時投資股票與債券等部位需達70%，且依全球景氣循環階段，動態彈性調整各類資產的投資配置，其中股票資產配置水位可介於10%~90%。註：元大台灣高股息優質龍頭基金的年終配息機制(每年度分配收益)，係以基金B類型受益權單位投資於中華民國境內所得之已實現資本利得扣除資本損失(包括已實現及未實現之資本損失)，並扣除應負擔之費用之正數餘額為可分配收益，如無正數餘額時將不予分配。日本龍頭企業的定義為於日本股票市場交易的企業，且為各產業類別之全部上市櫃股票市值排序前30%(含)者。<span class="fw-bold">基金淨資產需有大於等於60%的總金額投資在符合「日本龍頭企業」定義之股票。本說明非代表本基金未來必然之配置，未來投資將依公開說明書規範及當時市場環境與經濟現況而調整。上述配置為2023年10月底之基金之實際布局，未來投資將依公開說明書規範及當時市場環境與經濟現況而調整。</span></div>
           <h3>龍頭企業閃耀國際</h3>
           <div class="companyTable txt-center txt-md borderRadius-md">
-            <div class="companyTable-row">
+            <div class="companyTable-row hide-mobile">
               <div class="th"></div>
               <div class="th thUS">美國</div>
               <div class="th thJP">日本</div>
@@ -183,18 +184,21 @@
             <div class="companyTable-row">
               <div class="td"><p>半導體</p></div>
               <div class="td tdUS">
+                <div class="tag tagUS hide-pc">美國</div>
                 <ol class="txt-left">
                   <li>輝達<span class="txt-sm">(全球晶片龍頭)</span></li>
                   <li>蘋果<span class="txt-sm">(全球晶片領導品牌)</span></li>
                 </ol>
               </div>
               <div class="td tdJP">
+                <div class="tag tagJP hide-pc">日本</div>
                 <ol class="txt-left">
                   <li>東京威力科創<span class="txt-sm">(全球半導體製造強權)</span></li>
                   <li>信越化學<span class="txt-sm">(全球矽晶圓龍頭)</span></li>
                 </ol>
               </div>
               <div class="td tdTW">
+                <div class="tag tagTW hide-pc">台灣</div>
                 <ol class="txt-left">
                   <li>台積電<span class="txt-sm">(全球晶圓代工龍頭)</span></li>
                   <li>聯發科<span class="txt-sm">(亞洲晶片龍頭)</span></li>
@@ -205,6 +209,7 @@
             <div class="companyTable-row">
               <div class="td"><p>AI自動化</p></div>
               <div class="td tdUS">
+                <div class="tag tagUS hide-pc">美國</div>
                 <ol class="txt-left">
                   <li>微軟<span class="txt-sm">(全球雲端服務龍頭)</span></li>
                   <li>臉書<span class="txt-sm">(全球社群平台龍頭)</span></li>
@@ -212,12 +217,14 @@
                 </ol>
               </div>
               <div class="td tdJP">
+                <div class="tag tagJP hide-pc">日本</div>
                 <ol class="txt-left">
                   <li>基恩斯<span class="txt-sm">(全球自動化龍頭)</span></li>
                   <li>SMC<span class="txt-sm">(全球氣動元件龍頭)</span></li>
                 </ol>
               </div>
               <div class="td tdTW">
+                <div class="tag tagTW hide-pc">台灣</div>
                 <ol class="txt-left">
                   <li>廣達<span class="txt-sm">(全球AI伺服器領導廠)</span></li>
                   <li>緯創<span class="txt-sm">(全球伺服器零件領導供應商)</span></li>
@@ -227,12 +234,14 @@
             <div class="companyTable-row">
               <div class="td"><p>終端消費</p></div>
               <div class="td tdUS">
+                <div class="tag tagUS hide-pc">美國</div>
                 <ol class="txt-left">
                   <li>禮來<span class="txt-sm">(全球製藥龍頭)</span></li>
                   <li>百事可樂<span class="txt-sm">(全球飲料領導品牌)</span></li>
                 </ol>
               </div>
               <div class="td tdJP">
+                <div class="tag tagJP hide-pc">日本</div>
                 <ol class="txt-left">
                   <li>豐田<span class="txt-sm">(全球汽車龍頭)</span></li>
                   <li>任天堂<span class="txt-sm">(全球遊戲機龍頭)</span></li>
@@ -240,6 +249,7 @@
                 </ol>
               </div>
               <div class="td tdTW">
+                <div class="tag tagTW hide-pc">台灣</div>
                 <ol class="txt-left">
                   <li>聯詠<span class="txt-sm">(全球面板驅動IC領導)</span></li>
                   <li>聚陽<span class="txt-sm">(全球成衣代工強權)</span></li>
@@ -247,7 +257,7 @@
               </div>
             </div>
           </div>
-          <div class="notice txt-sm txt-left">資料來源：元大投信整理，2023/10/31。<span class="fw-bold">本文提及個股、行業及占比僅為說明之用，不代表基金之必然投資，亦不代表任何金融商品</span></div>
+          <div class="notice txt-sm txt-left">資料來源：元大投信整理，2023/10/31。<span class="fw-bold">本文提及個股、行業及占比僅為說明之用，不代表基金之必然投資，亦不代表任何金融商品的推介或建議，無特定推薦之意圖。各基金成分證券篩選規則請詳閱公開說明書。投資人申購基金係持有基金受益憑證，而非本文提及之投資資產或標的。</span></div>
         </div>
       </section>
       <section class="rsp">
@@ -260,12 +270,12 @@
             <div class="rspSlider">
               <div class="rspSlide">
                 <div class="descrip txt-md">過去 15 年，每個月定期定額多元資產組合新台幣 10,000 元，期間不中斷，累積獲利 199 萬元</div>
-                <div class="chartImg"><img src="assets/img/chart-rsp-1.svg" alt="" /></div>
+                <div class="chartImg"><img src="assets/img/chart-rsp-1.svg" class="hide-mobile" alt="" /><img src="assets/img/chart-rsp-1-mob.svg" class="hide-pc" alt="" /></div>
                 <div class="notice txt-sm txt-left">資料來源：理柏資訊，2008/10/31~2023/10/31，元大投信整理。全球優質龍頭股債組合為70%全球百大企業股票+30%優質債券(全球百大企業係以標普全球100指數為代表、優質債券係以Markit iBoxx美元流動投資等級債券指數為代表)；台股係以臺灣加權股價指數為代表；日股係以東證指數為代表。定期定額以每月第一個營業日投資10,000元計算，期間不中斷，以含息報酬率，新台幣計價，未計交易成本。<span class="fw-bold">投資人因不同時間進場，將有不同之投資績效，過去之績效亦不代表未來績效之保證。指數報酬率非指基金報酬率，投資人不可直接投資該指數。</span></div>
               </div>
               <div class="rspSlide">
                 <div class="descrip txt-md">定期定額年化報酬率 6% 的商品，累積千萬所需時間試算</div>
-                <div class="chartImg"><img src="assets/img/chart-rsp-2.svg" alt="" /></div>
+                <div class="chartImg"><img src="assets/img/chart-rsp-2.svg" class="hide-mobile" alt="" /><img src="assets/img/chart-rsp-2-mob.svg" class="hide-pc" alt="" /></div>
                 <div class="notice txt-sm txt-left">資料來源：彭博資訊，元大投信整理。上圖為假設期初投資0元，於每個月最後一日定期定額投資1萬元、2萬元、3萬元，且持續投資不中斷，以年化報酬率6%的情境進行計算(以多元資產組合投資配置定期定額過去15年總報酬率110.8%，年化報酬率6%計算)，含息報酬率，新台幣計價，不計入交易成本。<span class="fw-bold">投資人因不同時間進場，將有不同之投資績效，過去之績效亦不代表未來績效之保證，投資人須留意投資風險。以上僅為模擬結果，不代表實際報酬率及未來績效保證，不同時間進行模擬操作，其結果可能不同，以上資料僅供參考。</span></div>
               </div>
             </div>
@@ -276,7 +286,7 @@
         <div class="container">
           <h2>龍年優惠活動專區</h2>
           <div class="contBox borderRadius-lg">
-            <div class="date txt-md">活動期間：2024 / 01 / 01 - 2024 / 12 / 31</div>
+            <div class="date txt-md">活動期間：2024/01/01 - 2024/12/31</div>
             <div class="offer-1">
               <div class="offerImg"><img src="assets/img/img-offer-1.svg" alt="" /></div>
               <div class="offerTxt txt-lg txt-left">活動期間，線上新增定期定額申購元大龍頭系列基金任 1 檔，均享終身零手續費優惠。</div>
@@ -299,13 +309,13 @@
           </div>
           <div class="faq">
             <div class="faqSwitch">
-              <button class="txt-lg" @click="showDetail('isOpen_faq')"><span :class="activeBtn('isOpen_faq')">常見問答</span></button>
+              <button class="txt-lg btn-hover-opc" @click="showDetail('isOpen_faq')"><span :class="activeBtn('isOpen_faq')">常見問答</span></button>
             </div>
             <div v-show="isOpen_faq" class="faqCont">
               <div class="item txt-left txt-md" v-for="(item,index) in qa" :key="index">
                 <div class="itemNum">{{index+1}}</div>
                 <div class="itemCont">
-                  <div class="question" @click="showQa(index)">
+                  <div class="question btn-hover-opc" @click="showQa(index)">
                     <div>{{item.q}}</div>
                     <button :class="activeQa(index)"></button>
                   </div>
@@ -335,8 +345,7 @@
           <div class="warning-notice txt-sm txt-left">
             <p class="fw-bold">注意事項</p>
             <ul>
-              <li>元大龍頭系列基金優惠適用元大投信基金理財網、元大基金先生 APP 或元大投信書面交易申購。</li>
-              <li>本優惠活動如有變更，以網站公告為準，不另行個別通知。</li>
+              <li>龍年優惠活動專區內容僅適用電子交易申購（元大投信基金理財網、元大基金先生 APP）。</li>
               <li>參加本活動者視同接受本注意事項之規範，元大投信保有修改、終止或變更本活動內容細節之權利。</li>
               <li>如有未盡事宜，悉依元大基金理財網公告或相關規定辦理。</li>
             </ul>
@@ -467,7 +476,7 @@
             return ['arrow', { active: this[val] }]
           },
           activeQa(index) {
-            return this.qa[index].isOpen ? 'active' : 'qqqq'
+            return this.qa[index].isOpen ? 'active' : ''
           },
           // 地址
           getLocation() {
