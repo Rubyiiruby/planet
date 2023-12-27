@@ -1097,8 +1097,13 @@ section.warning {
     padding: 3.5% 0;
   }
 }
-/* @media (min-aspect-ratio: 3/2) {
-  .kvImg {
-    padding: 0 50px;
+@media screen and (max-width: 375px) and (min-aspect-ratio: 14/25) {
+  section.kv,
+  .kv::before,
+  .kv-deco {
+    height: 120svh;
   }
-} */
+  /* .kvImg {
+    padding: 0 50px;
+  } */
+}
