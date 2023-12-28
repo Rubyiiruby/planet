@@ -471,10 +471,8 @@ section.rsp {
   box-shadow: 10px 10px 0 #5fafff;
   /* overflow-x: hidden; */
 }
-.rsp {
-  .slick-slide {
-    height: auto;
-  }
+.rsp .slick-slide {
+  height: auto;
 }
 .rsp .prev-arrow,
 .rsp .next-arrow {
