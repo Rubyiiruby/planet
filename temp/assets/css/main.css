@@ -469,7 +469,7 @@ section.rsp {
   padding: 0;
   border: 1px solid #5fafff;
   box-shadow: 10px 10px 0 #5fafff;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .rsp {
   .slick-slide {
@@ -1060,7 +1060,10 @@ section.warning {
   .rsp .prev-arrow {
     right: auto;
     left: 0;
-    border-radius: 0;
+  }
+  .rsp .prev-arrow,
+  .rsp .next-arrow {
+    border-radius: 0 40px 0 0;
   }
   .contBox,
   .offer .contBox {
