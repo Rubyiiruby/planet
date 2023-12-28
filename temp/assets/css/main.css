@@ -469,7 +469,7 @@ section.rsp {
   padding: 0;
   border: 1px solid #5fafff;
   box-shadow: 10px 10px 0 #5fafff;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .rsp {
   .slick-slide {
