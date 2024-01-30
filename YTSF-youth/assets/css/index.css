@@ -96,6 +96,7 @@ section#kv {
   position: relative;
   width: 100vw;
   height: 100vh;
+  padding: 0;
   background: url(../img/pattern-cash.svg) top left / 150px auto repeat #80b4ff;
   overflow-y: hidden;
 }
@@ -104,6 +105,7 @@ section#kv {
   position: absolute;
   bottom: -1px;
   width: 100vw;
+  padding: 0;
   z-index: 12;
 }
 .kv-cont {
