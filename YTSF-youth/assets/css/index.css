@@ -94,7 +94,7 @@ section#kv {
 }
 .kv-wrapper {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: url(../img/pattern-cash.svg) top left / 150px auto repeat #80b4ff;
   overflow-y: hidden;
@@ -103,7 +103,7 @@ section#kv {
   content: url(../img/bg-arch.svg);
   position: absolute;
   bottom: -1px;
-  width: 100%;
+  width: 100vw;
   z-index: 12;
 }
 .kv-cont {
