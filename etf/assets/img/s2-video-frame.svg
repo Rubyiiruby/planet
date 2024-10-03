@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1065.6 620.4">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #45caff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #45caff;
+      }
+
+      .cls-2 {
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_2">
+      <g>
+        <rect class="cls-1" x="52.8" y="39.4" width="960" height="540"/>
+        <rect class="cls-3" x="260.5" y="17.8" width="544.6" height="1.6"/>
+        <rect class="cls-3" x="260.5" y="598.9" width="544.6" height="1.6"/>
+        <g>
+          <polyline class="cls-2" points="822.9 19.1 875.8 19.1 892.9 2 997.8 2 1049.6 53.8 1049.6 196.5 1063.6 210.6 1063.6 257.3"/>
+          <polyline class="cls-2" points="822.9 601.2 875.8 601.2 892.9 618.4 997.8 618.4 1049.6 566.6 1049.6 423.8 1063.6 409.8 1063.6 363"/>
+        </g>
+        <polygon class="cls-3" points="1035.6 216.1 1035.6 274.2 1035.6 346.2 1035.6 404.3 1047.2 392.7 1047.2 346.2 1047.2 274.2 1047.2 227.6 1035.6 216.1"/>
+        <g>
+          <polyline class="cls-2" points="242.8 19.1 189.8 19.1 172.7 2 67.8 2 16.1 53.8 16.1 196.5 2 210.6 2 257.3"/>
+          <polyline class="cls-2" points="242.8 601.2 189.8 601.2 172.7 618.4 67.8 618.4 16.1 566.6 16.1 423.8 2 409.8 2 363"/>
+        </g>
+        <polygon class="cls-3" points="30 216.1 30 274.2 30 346.2 30 404.3 18.5 392.7 18.5 346.2 18.5 274.2 18.5 227.6 30 216.1"/>
+        <line class="cls-2" x1="284.4" y1="56.7" x2="780.3" y2="56.7"/>
+        <line class="cls-2" x1="284.4" y1="561.9" x2="780.3" y2="561.9"/>
+      </g>
+    </g>
+  </g>
+</svg>
